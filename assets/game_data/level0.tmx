@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="88">
+ <tileset firstgid="1" source="UI_Pong.tsx"/>
+ <tileset firstgid="61" source="ping_pong_UI2.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="30" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="fondo">
+  <object id="1" gid="12" x="5.54593" y="682" width="950" height="690"/>
+ </objectgroup>
+ <objectgroup id="11" name="fondo2"/>
+ <objectgroup id="12" name="fondo3">
+  <object id="67" gid="26" x="127" y="59.8333" width="1.66667" height="15">
+    <property name="Active" value="True"/>
+  </object>
+  <object id="68" gid="26" x="127.667" y="94" width="1.66667" height="15">
+    <property name="Active" value="True"/>
+  </object>
+  <object id="69" gid="26" x="128.167" y="163.5" width="1.66667" height="15">
+    <property name="Active" value="True"/>
+  </object>
+  <object id="70" gid="26" x="127.667" y="126.5" width="1.66667" height="15">
+    <property name="Active" value="True"/>
+  </object>
+  <object id="71" gid="26" x="128.667" y="193" width="1.66667" height="15">
+    <property name="Active" value="True"/>
+  </object>
+  <object id="72" gid="26" x="129.167" y="226" width="1.66667" height="15">
+    <property name="Active" value="True"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="objects1" opacity="0.38">
+  <object id="3" gid="3" x="128" y="96" width="256" height="192">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Look_At" value=""/>
+    <property name="Name_Obj" value="Camera1"/>
+    <property name="Tag" value="Camera"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="objects2">
+  <object id="8" gid="1" x="84" y="71" width="6" height="6">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Collider_Type" value="circle"/>
+    <property name="Dinamic_Friction" value="0.0"/>
+	<property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="ball"/>
+    <property name="Proyectil_SFX_1" value="hit_ball"/>
+    <property name="Proyectil_SFX_2" value="destroy_ball"/>
+    <property name="Proyectil_SFX_Count" value="2"/>
+    <property name="Proyectil_Type" value="pin-pong"/>
+    <property name="RigidBody_Mass" value="1"/>
+    <property name="Static_Friction" value="1.0"/>
+    <property name="Tag" value="Proyectil"/>
+    <property name="Use_Gravity" value="False"/>
+    <property name="rebote_factor" value="1.0"/>
+   </properties>
+  </object>
+  <object id="9" gid="16" x="28" y="109" width="5" height="22">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Collider_Type" value="square"/>
+    <property name="Dinamic_Friction" value="0.0"/>
+    <property name="Enemy_Dificult" value="0"/>
+    <property name="Enemy_MinDistTarget" value="16.0"/>
+    <property name="Enemy_Sleep" value="0.10"/>
+    <property name="Enemy_Target" value="ball"/>
+    <property name="Enemy_Vel" value="0,780"/>
+    <property name="Enemy_dirs" value="Up,Down"/>
+    <property name="Enemy_type" value="pin-pong-rival"/>
+    <property name="Lock_Position" value="1,0"/>
+    <property name="Name_Obj" value="bar_enemy"/>
+    <property name="RigidBody_Mass" value="1"/>
+    <property name="Static_Friction" value="0.0"/>
+    <property name="Tag" value="Enemy"/>
+    <property name="Use_Gravity" value="False"/>
+    <property name="rebote_factor" value="0.0"/>
+   </properties>
+  </object>
+  <object id="62" gid="15" x="229" y="121" width="6" height="23.25">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Collider_Type" value="square"/>
+    <property name="Dinamic_Friction" value="0.0"/>
+    <property name="Lock_Position" value="1,0"/>
+    <property name="Name_Obj" value="player_bar"/>
+    <property name="Player_UI_Active" value="True"/>
+    <property name="Player_UI_Obs" value="Modal:message_ok,message_cancel;Victory:btn_victory;Lose:btn_Lose;"/>
+    <property name="Player_UI_Opcion" value="Modal:2;Victory:1;Lose:1;"/>
+    <property name="Player_UI_Pantallas" value="Modal,Victory,Lose,"/>
+    <property name="RigidBody_Mass" value="1"/>
+    <property name="Static_Friction" value="0.0"/>
+    <property name="Tag" value="Player"/>
+    <property name="Use_Gravity" value="False"/>
+    <property name="rebote_factor" value="0.0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="colliders">
+  <object id="4" x="-22" y="190" width="334" height="33">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Dinamic_Friction" value="0.0"/>
+    <property name="Name_Obj" value="wall1"/>
+    <property name="Static_Friction" value="1.0"/>
+    <property name="Tag" value="wall"/>
+    <property name="rebote_factor" value="0.0"/>
+   </properties>
+  </object>
+  <object id="5" x="263" y="-45" width="28" height="276">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Dinamic_Friction" value="0.0"/>
+    <property name="Name_Obj" value="wall1"/>
+    <property name="Static_Friction" value="1.0"/>
+    <property name="Tag" value="wall"/>
+    <property name="rebote_factor" value="0.0"/>
+   </properties>
+  </object>
+  <object id="6" x="-13" y="-50" width="22" height="326">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Dinamic_Friction" value="0.0"/>
+    <property name="Name_Obj" value="wall1"/>
+    <property name="Static_Friction" value="1.0"/>
+    <property name="Tag" value="wall"/>
+    <property name="rebote_factor" value="0.0"/>
+   </properties>
+  </object>
+  <object id="7" x="-2" y="-5" width="307" height="36">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Dinamic_Friction" value="0.0"/>
+    <property name="Name_Obj" value="wall1"/>
+    <property name="Static_Friction" value="1.0"/>
+    <property name="Tag" value="wall"/>
+    <property name="rebote_factor" value="0.0"/>
+   </properties>
+  </object>
+  <object id="7" x="240" y="-50" width="22" height="326">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Dinamic_Friction" value="0.0"/>
+    <property name="Name_Obj" value="wall1"/>
+    <property name="Static_Friction" value="1.0"/>
+    <property name="Tag" value="zona_player"/>
+    <property name="Trigger" value="True"/>
+    <property name="rebote_factor" value="0.0"/>
+   </properties>
+  </object>
+  <object id="7" x="0" y="-50" width="22" height="326">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Dinamic_Friction" value="0.0"/>
+    <property name="Name_Obj" value="wall1"/>
+    <property name="Static_Friction" value="1.0"/>
+    <property name="Tag" value="zona_enemy"/>
+    <property name="Trigger" value="True"/>
+    <property name="rebote_factor" value="0.0"/>
+   </properties>
+  </object>
+  <object id="11" gid="1" x="10.6667" y="320" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Sfx"/>
+    <property name="source" value="destroy_ball.wav"/>
+   </properties>
+  </object>
+  <object id="13" gid="1" x="20" y="340.5" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Sfx"/>
+    <property name="source" value="hit_ball.wav"/>
+   </properties>
+  </object>
+  <object id="23" gid="1" x="44" y="333" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Music"/>
+    <property name="source" value=""/>
+   </properties>
+  </object>
+  <object id="24" gid="1" x="34.3333" y="358.333" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Sfx"/>
+    <property name="source" value="UI_1.wav"/>
+   </properties>
+  </object>
+  <object id="60" gid="1" x="34.3333" y="358.333" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Sfx"/>
+    <property name="source" value="Victory.wav"/>
+   </properties>
+  </object>
+  <object id="61" gid="1" x="34.3333" y="358.333" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Sfx"/>
+    <property name="source" value="Lose.wav"/>
+   </properties>
+  </object>
+  <object id="25" gid="1" x="68.6667" y="351" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Sfx"/>
+    <property name="source" value="UI_2.wav"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="UI">
+  <object id="15" gid="14" x="75.3333" y="10" width="45" height="9">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="label1"/>
+    <property name="Parent" value=""/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="CPU Points"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="16" gid="14" x="142.167" y="10" width="45" height="9">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="label2"/>
+    <property name="Parent" value=""/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Player Points"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="21" gid="14" x="86.3333" y="25.8333" width="45.5" height="14">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo4"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="2"/>
+    <property name="Name_Obj" value="score_enemy"/>
+    <property name="Parent" value=""/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="35"/>
+    <property name="Text_Value" value="00"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="22" gid="14" x="154.167" y="25.6667" width="44" height="13.5">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo4"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="2"/>
+    <property name="Name_Obj" value="score_player"/>
+    <property name="Parent" value=""/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="35"/>
+    <property name="Text_Value" value="00"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="39" gid="14" x="203.166" y="4" width="120.667" height="83.3333">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Layer_Render" value="2"/>
+    <property name="Name_Obj" value="pantalla1"/>
+    <property name="Tag" value="UI_Image"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="81" gid="63" x="65.6667" y="135" width="129.667" height="85">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Layer_Render" value="2"/>
+    <property name="Name_Obj" value="Modal"/>
+    <property name="Tag" value="UI_Message"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="86" gid="31" x="80.75" y="30" width="25.5" height="20.25">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="score_icn"/>
+    <property name="Parent" value=""/>
+    <property name="Tag" value="UILabel"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="87" gid="31" x="149.25" y="30" width="25.5" height="20.25">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="score_icn2"/>
+    <property name="Parent" value=""/>
+    <property name="Tag" value="UILabel"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="UI2" visible="0">
+  <object id="34" gid="15" x="82.8331" y="126.75" width="31.4493" height="11.6667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.4"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="4"/>
+    <property name="Name_Obj" value="message_ok"/>
+    <property name="On_Click1" value="6:Modal,"/>
+    <property name="On_Click2" value="13:player_bar,True"/>
+    <property name="On_Click3" value="16:"/>
+    <property name="Parent" value="Modal"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="213,154,106,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,255,255,255"/>
+    <property name="Text_Offset" value="10,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Yes"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="36" gid="15" x="78.4418" y="66.7499" width="89.4493" height="7.6667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="3"/>
+    <property name="Name_Obj" value="message_title"/>
+    <property name="Parent" value="Modal"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="11,11,37,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Over" value="255,241,194,255"/>
+    <property name="Text_Offset" value="25,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Return to Title"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="37" gid="15" x="82.6085" y="107.917" width="88.9493" height="34.1667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="3"/>
+    <property name="Name_Obj" value="message_text"/>
+    <property name="Parent" value="Modal"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Over" value="255,241,194,255"/>
+    <property name="Text_Offset" value="10,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Do You Want Return to the Title?"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="38" gid="15" x="139.775" y="127.417" width="31.4493" height="11.6667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.4"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="4"/>
+    <property name="Name_Obj" value="message_cancel"/>
+    <property name="On_Click1" value="6:Modal,"/>
+    <property name="On_Click2" value="13:player_bar,False"/>
+    <property name="On_Click3" value="16:"/>
+    <property name="Parent" value="Modal"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="213,154,106,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,255,255,255"/>
+    <property name="Text_Offset" value="10,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="No"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="UI3" visible="0">
+  <object id="82" gid="64" x="57.3333" y="182.167" width="153.667" height="164" rotation="360">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Layer_Render" value="2"/>
+    <property name="Name_Obj" value="Victory"/>
+    <property name="Tag" value="UI_Image"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="83" gid="64" x="58.1665" y="181.5" width="153.667" height="164" rotation="360">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Layer_Render" value="2"/>
+    <property name="Name_Obj" value="Lose"/>
+    <property name="Tag" value="UI_Image"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="UI_42" visible="0">
+  <object id="78" gid="32" x="115.606" y="126.955" width="36.6969" height="36.8182">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Layer_Render" value="3"/>
+    <property name="Name_Obj" value="Victori_icn2"/>
+    <property name="Parent" value="Victory"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="UI4" visible="0">
+  <object id="46" gid="15" x="80.5" y="36" width="111.5" height="11">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo3"/>
+    <property name="Font_Src" value="ARIALBD1.TTF"/>
+    <property name="Layer_Render" value="4"/>
+    <property name="Name_Obj" value="Victory_Title"/>
+    <property name="Parent" value="Victory"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="101,93,181,255"/>
+    <property name="Text_Color_Click" value="101,93,181,255"/>
+    <property name="Text_Color_Over" value="101,93,181,255"/>
+    <property name="Text_Offset" value="40,0"/>
+    <property name="Text_Size" value="26"/>
+    <property name="Text_Value" value="Victory"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="47" gid="15" x="80.4197" y="91.4412" width="111.5" height="43.0142" rotation="0.587153">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo_end"/>
+    <property name="Font_Src" value="ARIALBD1.TTF"/>
+    <property name="Layer_Render" value="3"/>
+    <property name="Name_Obj" value="Victory_Text"/>
+    <property name="Parent" value="Victory"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="251,242,44,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Over" value="255,241,194,255"/>
+    <property name="Text_Offset" value="10,0"/>
+    <property name="Text_Size" value="26"/>
+    <property name="Text_Value" value="Congratulations You Win"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="52" gid="15" x="112.442" y="169.667" width="51.616" height="11.6667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.3"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="4"/>
+    <property name="Name_Obj" value="btn_victory"/>
+    <property name="On_Click1" value="6:Victory"/>
+    <property name="On_Click2" value="8:Inicio"/>
+    <property name="Parent" value="Victory"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="101,93,181,255"/>
+    <property name="Text_Color_Click" value="101,93,181,255"/>
+    <property name="Text_Color_Select" value="255,255,255,255"/>
+    <property name="Text_Offset" value="13,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Aceptar"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="73" gid="27" x="123.75" y="119" width="22.25" height="22">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Animator_Source" value="animator3.xml"/>
+    <property name="Layer_Render" value="4"/>
+    <property name="Name_Obj" value="Victori_icn"/>
+    <property name="Parent" value="Victory"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="16" name="UI_5_2" visible="0">
+  <object id="85" gid="33" x="122.5" y="126" width="36" height="36">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="3"/>
+    <property name="Name_Obj" value="Lose_icn2"/>
+    <property name="Parent" value="Lose"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="UI5" visible="0">
+  <object id="55" gid="15" x="81" y="35" width="111.5" height="11">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo3"/>
+    <property name="Font_Src" value="ARIALBD1.TTF"/>
+    <property name="Layer_Render" value="3"/>
+    <property name="Name_Obj" value="Lose_Title"/>
+    <property name="Parent" value="Lose"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="101,93,181,255"/>
+    <property name="Text_Color_Click" value="101,93,181,255"/>
+    <property name="Text_Color_Over" value="101,93,181,255"/>
+    <property name="Text_Offset" value="40,0"/>
+    <property name="Text_Size" value="26"/>
+    <property name="Text_Value" value="Lose"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="56" gid="15" x="78.9197" y="90.941" width="111.5" height="43.0142" rotation="0.587153">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo_end"/>
+    <property name="Font_Src" value="ARIALBD1.TTF"/>
+    <property name="Layer_Render" value="3"/>
+    <property name="Name_Obj" value="Lose_Text"/>
+    <property name="Parent" value="Lose"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Over" value="255,241,194,255"/>
+    <property name="Text_Offset" value="10,0"/>
+    <property name="Text_Size" value="26"/>
+    <property name="Text_Value" value="You Lose , Try Again"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="57" gid="30" x="128.495" y="119.1" width="23.3442" height="23.9664">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="4"/>
+    <property name="Name_Obj" value="Lose_icn"/>
+    <property name="Parent" value="Lose"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="58" gid="15" x="111.359" y="168" width="51.616" height="11.6667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.3"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="4"/>
+    <property name="Name_Obj" value="btn_Lose"/>
+    <property name="On_Click1" value="6:Lose"/>
+    <property name="On_Click2" value="8:Inicio"/>
+    <property name="Parent" value="Lose"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="101,93,181,255"/>
+    <property name="Text_Color_Click" value="101,93,181,255"/>
+    <property name="Text_Color_Select" value="255,255,255,255"/>
+    <property name="Text_Offset" value="15,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Aceptar"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

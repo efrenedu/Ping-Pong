@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animator spacing_sprite="2">
+   <Parameters>
+		<Parameter id="Selected" value="False" type="boolean"/>
+   </Parameters>
+   <Animation frameCount="5" name="anim1" conditionsCount="1" start_x="72" start_y="18" direction="rigth" cicle="1">
+        <Frames>
+	        <Frame index="0" duration="100"/>
+		    <Frame index="1" duration="100"/>
+			<Frame index="2" duration="100"/>
+			<Frame index="3" duration="100"/>
+		    <Frame index="4" duration="100"/>
+			
+	    </Frames>
+	    <Transitions transitions_count="1"> 
+	        <Transition  from="anim1" to="anim2" wait_finish="0" condition_count="1"  operator="and">
+		        <Conditions>
+			        <Condition operator="equal" cond_name="Selected" value="False"/>
+			    </Conditions>
+		    </Transition> 
+	    </Transitions>
+   </Animation>
+    <Animation frameCount="1" name="anim2" conditionsCount="1" start_x="162" start_y="18" direction="rigth" cicle="1">
+        <Frames>
+	        <Frame index="0" duration="100"/>   
+	    </Frames>
+	    <Transitions transitions_count="1"> 
+	        <Transition  from="anim2" to="anim1" wait_finish="0" condition_count="1"  operator="and">
+		        <Conditions>
+			        <Condition operator="equal" cond_name="Selected" value="True"/>
+			    </Conditions>
+		    </Transition>
+		    
+	    </Transitions>
+   </Animation>
+</Animator>

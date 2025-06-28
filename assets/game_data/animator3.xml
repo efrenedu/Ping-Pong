@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animator spacing_sprite="2">
+   <Parameters>
+   </Parameters>
+   <Animation frameCount="3" name="anim1" conditionsCount="0" start_x="36" start_y="36" direction="rigth" cicle="1">
+        <Frames>
+	        <Frame index="0" duration="200"/>
+		    <Frame index="1" duration="200"/>
+			<Frame index="2" duration="200"/>
+	    </Frames>
+	    <Transitions transitions_count="0">  
+	    </Transitions>
+   </Animation>
+   
+</Animator>

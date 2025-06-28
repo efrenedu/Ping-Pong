@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="87">
+ <tileset firstgid="1" source="UI_Pong.tsx"/>
+ <tileset firstgid="61" source="ping_pong_UI2.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="30" height="20" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="UI" visible="0">
+  <object id="80" gid="61" x="-1.49983" y="204.75" width="274.333" height="204.5">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="0"/>
+    <property name="Name_Obj" value="Pantalla1"/>
+    <property name="Tag" value="UI_Background"/>
+    <property name="UI_layer" value="0"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="82" gid="62" x="0.833333" y="197.333" width="260.5" height="196.667">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Layer_Render" value="0"/>
+    <property name="Name_Obj" value="Pantalla2"/>
+    <property name="Tag" value="UI_Background"/>
+    <property name="UI_layer" value="0"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="83" gid="62" x="0" y="195" width="260" height="195">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Layer_Render" value="0"/>
+    <property name="Name_Obj" value="Pantalla3"/>
+    <property name="Tag" value="UI_Background"/>
+    <property name="UI_layer" value="0"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="UI2" visible="0">
+  <object id="13" gid="46" x="87" y="128.894" width="104.833" height="16.7273">
+   <properties>
+    <property name="Activate_OnSelected" value="Icon_lbl1"/>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.4"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="play"/>
+    <property name="On_Click1" value="8:level0"/>
+    <property name="Parent" value="Pantalla1"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Selected" value="True"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="20,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Play"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="14" gid="46" x="87" y="152.136" width="104.833" height="16.7273">
+   <properties>
+    <property name="Activate_OnSelected" value="Icon_lbl2"/>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.4"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="Config"/>
+    <property name="On_Click1" value="6:Pantalla1,"/>
+    <property name="On_Click2" value="5:Pantalla2,"/>
+    <property name="On_Click3" value="9:player01,Pantalla2"/>
+    <property name="Parent" value="Pantalla1"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="20,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Config"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="15" gid="46" x="87" y="175.136" width="104.833" height="16.7273">
+   <properties>
+    <property name="Activate_OnSelected" value="Icon_lbl3"/>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.3"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="Ext_G"/>
+    <property name="On_Click1" value="14:player01-0-"/>
+    <property name="On_Click2" value="5:Modal,"/>
+    <property name="On_Click3" value="9:player01,Modal"/>
+    <property name="Parent" value="Pantalla1"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="20,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Exit"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="65" gid="1" x="80.5" y="143.333" width="16" height="16">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Animator_Source" value="animator2.xml"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="Icon_lbl2"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="68" gid="1" x="80.5" y="120.5" width="16" height="16">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Animator_Source" value="animator2.xml"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="Icon_lbl1"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="69" gid="1" x="80.5" y="167" width="16" height="16">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Animator_Source" value="animator2.xml"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="Icon_lbl3"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="UI3" visible="0">
+  <object id="19" gid="46" x="22.3333" y="169.136" width="71.4997" height="16.7273">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.4"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="return"/>
+    <property name="On_Click1" value="5:Pantalla1,"/>
+    <property name="On_Click2" value="6:Pantalla2,"/>
+    <property name="On_Click3" value="9:player01,Pantalla1"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,249,129,255"/>
+    <property name="Text_Offset" value="20,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Return"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="22" gid="46" x="25" y="67" width="67.3333" height="13.3333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="volume_sfx"/>
+    <property name="On_Select1" value="12:player01,scroll1,"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="SFX Volume"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="23" gid="46" x="24.6666" y="89" width="68.6667" height="14.75">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="volume_bgm"/>
+    <property name="On_Select1" value="12:player01,scroll2,"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="BGM Volume"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="24" gid="46" x="23" y="135.292" width="31.5" height="14.75">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="controls"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Controls"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="28" gid="46" x="106.5" y="62.8333" width="13" height="7">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="BG_Color" value="0,0,0,255"/>
+    <property name="BG_Rect" value="106.5,63,100,7"/>
+    <property name="FG_Color" value="255,255,255,255"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="scroll1"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Rastro_Color" value="99,186,85,,255"/>
+    <property name="Reset_Desplz" value="False"/>
+    <property name="Sentido" value="0"/>
+    <property name="Tag" value="UIScroll"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="scroll"/>
+    <property name="Use_Rastro" value="True"/>
+    <property name="Visible" value="True"/>
+    <property name="iconos" value="14,14,14,"/>
+   </properties>
+  </object>
+  <object id="29" gid="46" x="106.5" y="86.7917" width="11.9394" height="7">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="BG_Color" value="0,0,0,255"/>
+    <property name="BG_Rect" value="106.5,86.79,100,7"/>
+    <property name="FG_Color" value="255,255,255,255"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="scroll2"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Rastro_Color" value="99,186,85,255"/>
+    <property name="Reset_Desplz" value="False"/>
+    <property name="Sentido" value="0"/>
+    <property name="Tag" value="UIScroll"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="scroll"/>
+    <property name="Use_Rastro" value="True"/>
+    <property name="Visible" value="True"/>
+    <property name="iconos" value="14,14,14,"/>
+   </properties>
+  </object>
+  <object id="31" gid="46" x="103.083" y="135.803" width="29.4997" height="13.0606">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.4"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="controles_btn"/>
+    <property name="On_Click1" value="5:Pantalla3,"/>
+    <property name="On_Click2" value="6:Pantalla2,"/>
+    <property name="On_Click3" value="9:player01,Pantalla3"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0..0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Show Controls"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="70" gid="46" x="23.25" y="115.958" width="31.5" height="14.75">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="dif_label"/>
+    <property name="On_Select1" value="19:player01,easy_radio,normal_radio,hard_radio,"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Dificult"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="71" gid="46" x="100.584" y="115.136" width="28.1664" height="13.3939">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="easy_lbl"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0..0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Easy"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="73" gid="46" x="147.917" y="115.303" width="28.1664" height="13.3939">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="normal_lbl"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0..0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Normal"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="74" gid="46" x="191.917" y="115.803" width="28.1664" height="13.3939">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="hard_lbl"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0..0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Hard"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="75" gid="7" x="130.5" y="115" width="16" height="16">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="normal_radio"/>
+    <property name="On_Select1" value="17:1"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Radio_Id" value="dificultad"/>
+    <property name="Radio_Value" value="1"/>
+    <property name="SFX_Source" value="UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="radio"/>
+    <property name="Visible" value="True"/>
+    <property name="iconos" value="7,8,9,"/>
+   </properties>
+  </object>
+  <object id="76" gid="7" x="176" y="115" width="16" height="16">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="hard_radio"/>
+    <property name="On_Select1" value="17:2"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Radio_Id" value="dificultad"/>
+    <property name="Radio_Value" value="2"/>
+    <property name="SFX_Source" value="UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="radio"/>
+    <property name="Visible" value="True"/>
+    <property name="iconos" value="7,8,9,"/>
+   </properties>
+  </object>
+  <object id="77" gid="7" x="82.5" y="115" width="16" height="16">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="easy_radio"/>
+    <property name="On_Select1" value="17:0"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Radio_Id" value="dificultad"/>
+    <property name="Radio_Value" value="0"/>
+    <property name="SFX_Source" value="UI_1,"/>
+    <property name="Selected" value="True"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="radio"/>
+    <property name="Visible" value="True"/>
+    <property name="iconos" value="7,8,9,"/>
+   </properties>
+  </object>
+  <object id="85" gid="65" x="34.5" y="166.5" width="50" height="16">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="0"/>
+    <property name="Name_Obj" value="btn_icnR1"/>
+    <property name="Parent" value="Pantalla2"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="UI4">
+  <object id="34" gid="46" x="20" y="169.636" width="71.4997" height="16.7273">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.4"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="return2"/>
+    <property name="On_Click1" value="5:Pantalla2,"/>
+    <property name="On_Click2" value="6:Pantalla3,"/>
+    <property name="On_Click3" value="9:player01,Pantalla2"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,249,129,255"/>
+    <property name="Text_Offset" value="20,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Return"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="36" gid="46" x="86.6666" y="63.3333" width="91.8333" height="8.3333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="key_label"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="20,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Controls List"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="42" gid="46" x="151.083" y="81.8333" width="11.1515" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Min_Characters" value="10"/>
+    <property name="Name_Obj" value="Up"/>
+    <property name="On_Click1" value="10:player01,Up,11,"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="UP Arrow"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="43" gid="46" x="151.208" y="92.958" width="9.51512" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Min_Characters" value="10"/>
+    <property name="Name_Obj" value="Down"/>
+    <property name="On_Click1" value="10:player01,Down,11,"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Down Arrow"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="44" gid="46" x="65.8409" y="82.521" width="41.1515" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="key_label_1"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Move Up"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="45" gid="46" x="65.9659" y="93.646" width="41.7651" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="key_label_2"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Move Down"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="46" gid="46" x="66.2841" y="104.333" width="41.7651" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="key_label_3"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Action"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="47" gid="46" x="150.742" y="104.333" width="9.51512" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Min_Characters" value="10"/>
+    <property name="Name_Obj" value="Action"/>
+    <property name="On_Click1" value="10:player01,Action,11,"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="X"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="57" gid="46" x="65.8675" y="115.583" width="41.7651" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="key_label_4"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Exit/Return"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="58" gid="46" x="65.8675" y="126.083" width="41.7651" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="key_label_5"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Move Left"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="59" gid="46" x="65.1175" y="137.583" width="41.7651" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Name_Obj" value="key_label_6"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Move Right"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="60" gid="46" x="150.742" y="116.083" width="9.51512" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Min_Characters" value="10"/>
+    <property name="Name_Obj" value="Exit"/>
+    <property name="On_Click1" value="10:player01,Exit,11,"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="X"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="61" gid="46" x="150.742" y="126.833" width="9.51512" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Min_Characters" value="10"/>
+    <property name="Name_Obj" value="Left"/>
+    <property name="On_Click1" value="10:player01,Left,11,"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="X"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="62" gid="46" x="150.992" y="137.083" width="9.51512" height="6.8333">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="1"/>
+    <property name="Min_Characters" value="10"/>
+    <property name="Name_Obj" value="Right"/>
+    <property name="On_Click1" value="10:player01,Right,11,"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Select" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="X"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="86" gid="65" x="33.1667" y="166" width="50" height="16">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Layer_Render" value="0"/>
+    <property name="Name_Obj" value="btn_icnR2"/>
+    <property name="Parent" value="Pantalla3"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="UI_5" visible="0">
+  <object id="84" gid="63" x="62.1667" y="135.333" width="126" height="85">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Layer_Render" value="2"/>
+    <property name="Name_Obj" value="Modal"/>
+    <property name="Tag" value="UI_Message"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="image"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="UI_6" visible="0">
+  <object id="52" gid="47" x="78" y="124.833" width="31.4493" height="11.6667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.4"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="4"/>
+    <property name="Name_Obj" value="message_ok"/>
+    <property name="On_Click1" value="6:Modal,"/>
+    <property name="On_Click2" value="13:player01,True"/>
+    <property name="On_Click3" value="9:player01,Pantalla1"/>
+    <property name="Parent" value="Modal"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="213,154,106,255"/>
+    <property name="Text_Color_Click" value="255,250,102,255"/>
+    <property name="Text_Color_Select" value="255,255,255,255"/>
+    <property name="Text_Offset" value="10,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Yes"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+  <object id="54" gid="47" x="103.609" y="64.8333" width="89.4493" height="7.6667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="3"/>
+    <property name="Name_Obj" value="Message_Title"/>
+    <property name="Parent" value="Modal"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="11,11,37,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Over" value="255,241,194,255"/>
+    <property name="Text_Offset" value="15,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Exit"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="55" gid="47" x="77.7754" y="106" width="88.9493" height="34.1667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="3"/>
+    <property name="Name_Obj" value="Message_Text"/>
+    <property name="Parent" value="Modal"/>
+    <property name="Tag" value="UILabel"/>
+    <property name="Text_Color" value="255,255,255,255"/>
+    <property name="Text_Color_Click" value="104,229,154,255"/>
+    <property name="Text_Color_Over" value="255,241,194,255"/>
+    <property name="Text_Offset" value="0,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="Do you Want Exit of the Game?"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="False"/>
+   </properties>
+  </object>
+  <object id="56" gid="47" x="134.942" y="125.5" width="31.4493" height="11.6667">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Espera_Event" value="0.4"/>
+    <property name="Font_Name" value="Arial_parrafo"/>
+    <property name="Font_Src" value="ARIAL.TTF"/>
+    <property name="Layer_Render" value="4"/>
+    <property name="Name_Obj" value="message_cancel"/>
+    <property name="On_Click1" value="6:Modal,"/>
+    <property name="On_Click2" value="13:player01,False"/>
+    <property name="On_Click3" value="9:player01,Pantalla1"/>
+    <property name="Parent" value="Modal"/>
+    <property name="SFX_Source" value="UI_2,UI_1,"/>
+    <property name="Tag" value="UIButton"/>
+    <property name="Text_Color" value="213,154,106,255"/>
+    <property name="Text_Color_Click" value="255,250,102,255"/>
+    <property name="Text_Color_Select" value="255,255,255,255"/>
+    <property name="Text_Offset" value="10,0"/>
+    <property name="Text_Size" value="18"/>
+    <property name="Text_Value" value="No"/>
+    <property name="UI_layer" value="0"/>
+    <property name="UI_type" value="label"/>
+    <property name="Visible" value="True"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="sonidos" visible="0">
+  <object id="25" gid="1" x="6" y="292" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Music"/>
+    <property name="source" value="Intro.wav"/>
+   </properties>
+  </object>
+  <object id="26" gid="1" x="12" y="326" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Sfx"/>
+    <property name="source" value="UI_1.wav"/>
+   </properties>
+  </object>
+  <object id="27" gid="1" x="14" y="351" width="16" height="16">
+   <properties>
+    <property name="Tag" value="Sfx"/>
+    <property name="source" value="UI_2.wav"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="otros" visible="0">
+  <object id="11" gid="3" x="256" y="196" width="256" height="192">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Look_At" value=""/>
+    <property name="Name_Obj" value="Camera1"/>
+    <property name="Tag" value="Camera"/>
+   </properties>
+  </object>
+  <object id="12" gid="3" x="312" y="84" width="16" height="16">
+   <properties>
+    <property name="Active" value="False"/>
+    <property name="Name_Obj" value="p"/>
+    <property name="Tag" value="Singleton"/>
+   </properties>
+  </object>
+  <object id="48" gid="3" x="298.667" y="122.667" width="16" height="16">
+   <properties>
+    <property name="Active" value="True"/>
+    <property name="Name_Obj" value="player01"/>
+    <property name="Player_Comp" value="False"/>
+    <property name="Player_UI_Active" value="True"/>
+    <property name="Player_UI_Obs" value="Pantalla1:play,Config,Ext_G;Pantalla2:volume_sfx,volume_bgm,dif_label,controles_btn,return;Pantalla3:Up,Down,Action,Exit,Left,Right,return2;Modal:message_ok,message_cancel;"/>
+    <property name="Player_UI_Opcion" value="Pantalla1:3;Pantalla2:5;Pantalla3:7;Modal:2;"/>
+    <property name="Player_UI_Pantallas" value="Pantalla1,Pantalla2,Pantalla3,Modal,"/>
+    <property name="Tag" value="Player"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
